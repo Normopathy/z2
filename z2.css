@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f0f0f0;
+  position: absolute;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 105%; 
+  height: 500px; 
+  background: #ffa420; 
+  border-radius: 5% 5% 150% 150%;
+  z-index: -1; 
+}
+.content-image {
+  position: absolute;
+  top: 77px;   
+  left: 328px;   
+  z-index: 100;
+}
+.logo{
+    position:absolute;
+    top: 24ppx;
+    left:50%;
+}
+.category{
+    position:absolute;
+    top: 506px;
+    left: 75px;
+
+}
+.burgers{
+    position:absolute;
+    top: 596px;
+    left: 405px
+}
+.card{
+    position: absolute;
+    top: 668px;
+    left:75px;
+}
+.cart{
+    position:absolute;
+    top:668px;
+    left:405px
+}
+.frame11{
+    position:absolute;
+    top: 668px;
+    left: 735px;
+}
+.frame12{
+    position:absolute;
+    top: 668px;
+    left: 1065px;
+}
+.frame13{
+    position:absolute;
+    top: 1109px;
+    left: 405px;
+}
+.frame14{
+    position:absolute;
+    top: 1109px;
+    left: 735px;
+}
+.frame15{
+    position:absolute;
+    top: 1109px;
+    left: 1065px;
+}
+.footer{
+    position:absolute;
+    top: 1620px;
+}
